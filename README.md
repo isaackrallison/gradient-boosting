@@ -3,6 +3,8 @@
 An interactive study guide for §18.5.5–18.6 of Kevin P. Murphy, *Probabilistic Machine Learning: An Introduction*
 (gradient boosting, gradient tree boosting, XGBoost, feature importance and partial dependence plots).
 
+**Live:** https://isaackrallison.github.io/gradient-boosting/
+
 Every section has an **Explain it** box at four levels (Kid, High school, Undergrad, Grad / MLE), switchable globally from the top bar.
 
 - **18.5.5 Gradient boosting:** Table 18.1 as curves (loss and negative gradient for squared, absolute, Huber, exponential, binary and multiclass log loss). Then gradient descent on 60 points two ways: raw functional gradient steps with a line search (Eqs. 18.38–18.40), which fit the training points and never generalize, and Algorithm 18.3, which fits a tree to the pseudo-residuals. Toggle outliers to see squared loss chase them and absolute/Huber loss ignore them.
